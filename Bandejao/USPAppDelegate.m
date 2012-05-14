@@ -9,6 +9,7 @@
 #import "USPAppDelegate.h"
 #import "USPRefeicao.h"
 #import "USPCardapio.h"
+#import "NSDate+Formatted.h"
 
 @interface USPAppDelegate ()
 
@@ -39,6 +40,8 @@
 - (void)teste
 {
     
+/*    
+    
         USPRefeicao *almoco = [[USPRefeicao alloc] init];        
         almoco.salada = @"alface";
         [almoco setPrincipal:@"arroz e feijão"];
@@ -65,6 +68,11 @@
                                                  error:nil];
     
     NSLog(@"%@",xml);
+ 
+ */
+    
+    NSString *format = @"dd/MM/YYYY";
+    NSLog(@"%@", [[NSDate date] dateStringWithFormat:format]);
     
 
     

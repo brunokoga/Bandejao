@@ -27,8 +27,11 @@
 {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor redColor];
+
+    USPMainViewController *viewController = [[USPMainViewController alloc] init];
+  
+    [self.window setRootViewController:viewController];
+      
     [self.window makeKeyAndVisible];
     
     [self teste];
@@ -40,43 +43,17 @@
 - (void)teste
 {
     
-/*    
-    
-        USPRefeicao *almoco = [[USPRefeicao alloc] init];        
-        almoco.salada = @"alface";
-        [almoco setPrincipal:@"arroz e feijão"];
-        [almoco setAcompanhamento:@"aaa"];
-        almoco.sobremesa = @"laranja";
-
-    
-    USPRefeicao *janta = [[USPRefeicao alloc] init];        
-    janta.salada = @"alface";
-    [janta setPrincipal:@"arroz e feijão"];
-    [janta setAcompanhamento:@"aaa"];
-    janta.sobremesa = @"laranja";
-    
-    USPCardapio *cardapio = [[USPCardapio alloc] init];
-    cardapio.diaSemana = @"segunda";
-    cardapio.data = @"11/11/11";
-    cardapio.almoco = almoco;
-    [cardapio setJantar:janta];
-        
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"restaurante" ofType:@"xml"];
-    
-    NSString *xml = [NSString stringWithContentsOfFile:path
-                                              encoding:NSASCIIStringEncoding
-                                                 error:nil];
-    
-    NSLog(@"%@",xml);
- 
- */
-    
     NSString *format = @"dd/MM/YYYY";
     NSLog(@"%@", [[NSDate date] dateStringWithFormat:format]);
     
-
-    
 }
+
+
+- (void)applicationDidEnterBackground:(UIApplication *)application 
+{
+    NSLog(@"background");
+}
+
 
 
 @end

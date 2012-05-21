@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C53F55DC1567C82B00372D9A /* USPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F55DA1567C82B00372D9A /* USPMainViewController.m */; };
+		C53F55DD1567C82B00372D9A /* USPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53F55DB1567C82B00372D9A /* USPMainViewController.xib */; };
+		C53F55EC1567DCF200372D9A /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F55EB1567DCF200372D9A /* RXMLElement.m */; };
+		C53F55EE1567DDA500372D9A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C53F55ED1567DDA500372D9A /* libz.dylib */; };
+		C53F55F01567DDAF00372D9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C53F55EF1567DDAF00372D9A /* libxml2.dylib */; };
+		C53F55F41567EAB400372D9A /* USPXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F55F31567EAB400372D9A /* USPXMLParser.m */; };
 		C56924931561849D00A16B9D /* NSDate+Formatted.m in Sources */ = {isa = PBXBuildFile; fileRef = C56924921561849D00A16B9D /* NSDate+Formatted.m */; };
 		C5F61EF7155EA85400BDBC88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F61EF6155EA85400BDBC88 /* UIKit.framework */; };
 		C5F61EF9155EA85400BDBC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F61EF8155EA85400BDBC88 /* Foundation.framework */; };
@@ -16,10 +22,18 @@
 		C5F61F07155EA85400BDBC88 /* USPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F61F06155EA85400BDBC88 /* USPAppDelegate.m */; };
 		C5F61F15155EAD2000BDBC88 /* USPRefeicao.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F61F14155EAD2000BDBC88 /* USPRefeicao.m */; };
 		C5F61F1E155EB29400BDBC88 /* USPCardapio.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F61F1D155EB29400BDBC88 /* USPCardapio.m */; };
-		C5F61F21155EB67E00BDBC88 /* restaurante.xml in Resources */ = {isa = PBXBuildFile; fileRef = C5F61F20155EB67E00BDBC88 /* restaurante.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C53F55D91567C82B00372D9A /* USPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPMainViewController.h; sourceTree = "<group>"; };
+		C53F55DA1567C82B00372D9A /* USPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPMainViewController.m; sourceTree = "<group>"; };
+		C53F55DB1567C82B00372D9A /* USPMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USPMainViewController.xib; sourceTree = "<group>"; };
+		C53F55EA1567DCF200372D9A /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		C53F55EB1567DCF200372D9A /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		C53F55ED1567DDA500372D9A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C53F55EF1567DDAF00372D9A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C53F55F21567EAB400372D9A /* USPXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPXMLParser.h; sourceTree = "<group>"; };
+		C53F55F31567EAB400372D9A /* USPXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPXMLParser.m; sourceTree = "<group>"; };
 		C56924911561849D00A16B9D /* NSDate+Formatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatted.h"; sourceTree = "<group>"; };
 		C56924921561849D00A16B9D /* NSDate+Formatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatted.m"; sourceTree = "<group>"; };
 		C5F61EF2155EA85400BDBC88 /* Bandejao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandejao.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +50,6 @@
 		C5F61F14155EAD2000BDBC88 /* USPRefeicao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPRefeicao.m; sourceTree = "<group>"; };
 		C5F61F1C155EB29400BDBC88 /* USPCardapio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPCardapio.h; sourceTree = "<group>"; };
 		C5F61F1D155EB29400BDBC88 /* USPCardapio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPCardapio.m; sourceTree = "<group>"; };
-		C5F61F20155EB67E00BDBC88 /* restaurante.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = restaurante.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53F55F01567DDAF00372D9A /* libxml2.dylib in Frameworks */,
+				C53F55EE1567DDA500372D9A /* libz.dylib in Frameworks */,
 				C5F61EF7155EA85400BDBC88 /* UIKit.framework in Frameworks */,
 				C5F61EF9155EA85400BDBC88 /* Foundation.framework in Frameworks */,
 				C5F61EFB155EA85400BDBC88 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +68,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C53F55D71567C7EC00372D9A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C53F55D91567C82B00372D9A /* USPMainViewController.h */,
+				C53F55DA1567C82B00372D9A /* USPMainViewController.m */,
+				C53F55DB1567C82B00372D9A /* USPMainViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C53F55E41567D95800372D9A /* LIbs */ = {
+			isa = PBXGroup;
+			children = (
+				C53F55E91567DCF200372D9A /* RaptureXML */,
+			);
+			name = LIbs;
+			sourceTree = "<group>";
+		};
+		C53F55E91567DCF200372D9A /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				C53F55EA1567DCF200372D9A /* RXMLElement.h */,
+				C53F55EB1567DCF200372D9A /* RXMLElement.m */,
+			);
+			path = RaptureXML;
+			sourceTree = "<group>";
+		};
+		C53F55F11567EA9C00372D9A /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				C53F55F21567EAB400372D9A /* USPXMLParser.h */,
+				C53F55F31567EAB400372D9A /* USPXMLParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
 		C569248F1561847E00A16B9D /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +116,8 @@
 		C5F61EE7155EA85300BDBC88 = {
 			isa = PBXGroup;
 			children = (
+				C53F55EF1567DDAF00372D9A /* libxml2.dylib */,
+				C53F55ED1567DDA500372D9A /* libz.dylib */,
 				C5F61EFC155EA85400BDBC88 /* Bandejao */,
 				C5F61EF5155EA85400BDBC88 /* Frameworks */,
 				C5F61EF3155EA85400BDBC88 /* Products */,
@@ -92,8 +145,10 @@
 		C5F61EFC155EA85400BDBC88 /* Bandejao */ = {
 			isa = PBXGroup;
 			children = (
+				C53F55F11567EA9C00372D9A /* Parser */,
+				C53F55E41567D95800372D9A /* LIbs */,
+				C53F55D71567C7EC00372D9A /* View Controllers */,
 				C569248F1561847E00A16B9D /* Categories */,
-				C5F61F1F155EB65300BDBC88 /* xml-teste */,
 				C5F61F11155EAC1A00BDBC88 /* Entidades */,
 				C5F61F05155EA85400BDBC88 /* USPAppDelegate.h */,
 				C5F61F06155EA85400BDBC88 /* USPAppDelegate.m */,
@@ -122,14 +177,6 @@
 				C5F61F1D155EB29400BDBC88 /* USPCardapio.m */,
 			);
 			name = Entidades;
-			sourceTree = "<group>";
-		};
-		C5F61F1F155EB65300BDBC88 /* xml-teste */ = {
-			isa = PBXGroup;
-			children = (
-				C5F61F20155EB67E00BDBC88 /* restaurante.xml */,
-			);
-			name = "xml-teste";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5F61F01155EA85400BDBC88 /* InfoPlist.strings in Resources */,
-				C5F61F21155EB67E00BDBC88 /* restaurante.xml in Resources */,
+				C53F55DD1567C82B00372D9A /* USPMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +248,9 @@
 				C5F61F15155EAD2000BDBC88 /* USPRefeicao.m in Sources */,
 				C5F61F1E155EB29400BDBC88 /* USPCardapio.m in Sources */,
 				C56924931561849D00A16B9D /* NSDate+Formatted.m in Sources */,
+				C53F55DC1567C82B00372D9A /* USPMainViewController.m in Sources */,
+				C53F55EC1567DCF200372D9A /* RXMLElement.m in Sources */,
+				C53F55F41567EAB400372D9A /* USPXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +318,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bandejao/Bandejao-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "Bandejao/Bandejao-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -279,6 +330,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bandejao/Bandejao-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "Bandejao/Bandejao-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

@@ -20,4 +20,15 @@
     return [formatter stringFromDate:self];
     
 }
+
+- (NSString*)dateStringWithDefaultFormat
+{
+    return [self dateStringWithFormat:@"dd/MM/YYYY"];
+}
+
+
+
+
+
+
 @end

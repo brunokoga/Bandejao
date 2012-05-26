@@ -29,4 +29,21 @@
     return self;
 }
 
+- (void)setCardapio:(USPCardapio*)cardapio
+{
+    self.DiaDaSemanaLabel.text = cardapio.diaSemana;
+    self.dataLabel.text = cardapio.data;
+    
+    self.almocoSaladaLabel.text = cardapio.almoco.salada;
+    [[self almocoAcompanhamentoLabel] setText:[[cardapio almoco] acompanhamento]];
+    self.almocoPrincipalLabel.text = cardapio.almoco.principal;
+    self.almocoSobremesaLabel.text = cardapio.almoco.sobremesa;
+    
+    self.jantarSaladaLabel.text = cardapio.jantar.salada;
+    self.jantarPrincipalLabel.text = cardapio.jantar.principal;
+    self.jantarAcompanhamentoLabel.text = cardapio.jantar.acompanhamento;
+    self.jantarSobremesaLabel.text = cardapio.jantar.sobremesa;
+    
+}
+
 @end

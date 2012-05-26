@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "USPMainViewController.h"
 #import "USPAnimationViewController.h"
+#import "USPCardapioTableViewController.h"
+#import "USPTabBarController.h"
 
 
 

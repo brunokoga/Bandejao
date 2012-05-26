@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "USPCardapio.h"
 
 @interface USPCardapioView : UIView
 
@@ -28,10 +29,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *jantarSobremesaLabel;
 
 
-
-
-
-
+- (void)setCardapio:(USPCardapio*)cardapio;
 
 
 

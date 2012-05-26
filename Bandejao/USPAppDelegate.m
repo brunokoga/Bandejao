@@ -37,10 +37,10 @@
         
 }
 
-- (UITabBarController*)createTabBarController
+- (USPTabBarController*)createTabBarController
 {
  
-    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    USPTabBarController *tabBarController = [[USPTabBarController alloc] init];
     
     USPMainViewController *mainViewController = [[USPMainViewController alloc] init];
     
@@ -60,11 +60,21 @@
     
     UITabBarItem *secondViewControllerTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Sobre" image:[UIImage imageNamed:@"59-info.png"] tag:1];
     [secondViewController setTabBarItem:secondViewControllerTabBarItem];
+
     
+    
+    USPCardapioTableViewController *tableViewController = [[USPCardapioTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    
+    UITabBarItem *tableTabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemRecents tag:2];
+    
+    
+    [navigationController setTabBarItem:tableTabBarItem];
 //    [secondViewControllerTabBarItem setTitle:@"Sobre"];
     
     
-    NSArray *controllers = [NSArray arrayWithObjects:mainViewController, secondViewController, nil];
+    NSArray *controllers = [NSArray arrayWithObjects:mainViewController, secondViewController, navigationController, nil];
     
     [tabBarController setViewControllers:controllers];
     

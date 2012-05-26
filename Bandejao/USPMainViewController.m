@@ -34,6 +34,7 @@
 {
     [super viewDidLoad];
     [self.pageControl setHidden:YES];
+    [self fetchData:nil];
 
 }
 
@@ -140,6 +141,10 @@
     NSArray *objetos = [xmlParser arrayByParsingXML:string];
     
     [self adjustScrollViewWithCardapios:objetos];
+    
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:objetos forKey:@"objetos"];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"CHEGOUDADO" object:nil userInfo:userInfo];
     
 }
 
@@ -299,28 +304,12 @@
         
         [view setFrame:CGRectMake(self.scrollView.frame.size.width * i, self.scrollView.frame.origin.y, self.scrollView.frame.size.width, self.scrollView.frame.size.height)];
         
-        
-        view.DiaDaSemanaLabel.text = cardapio.diaSemana;
-        
-        view.dataLabel.text = cardapio.data;
-
         if ([cardapio.data isEqualToString:hoje])
         {
             index = i;
         }
-
-        view.almocoSaladaLabel.text = cardapio.almoco.salada;
-        [[view almocoAcompanhamentoLabel] setText:[[cardapio almoco] acompanhamento]];
-        view.almocoPrincipalLabel.text = cardapio.almoco.principal;
-        view.almocoSobremesaLabel.text = cardapio.almoco.sobremesa;
         
-        view.jantarSaladaLabel.text = cardapio.jantar.salada;
-        view.jantarPrincipalLabel.text = cardapio.jantar.principal;
-        view.jantarAcompanhamentoLabel.text = cardapio.jantar.acompanhamento;
-        view.jantarSobremesaLabel.text = cardapio.jantar.sobremesa;
-        
-        //    [view setBackgroundColor:(UIColor*)[colors objectAtIndex:i]];
-        
+        [view setCardapio:cardapio];
         [self.scrollView addSubview:view];
         
     }
@@ -343,12 +332,7 @@
 {
     
     NSLog(@"double tap");
-    /*
-    CGRect frame = self.scrollView.frame;
-    frame.origin.x = frame.size.width * 5;
-    frame.origin.y = 0;
-    [self.scrollView scrollRectToVisible:frame animated:YES];
-     */
+    [self fetchData:nil];
     
     
 }

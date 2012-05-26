@@ -21,6 +21,9 @@
 		C5C354D5157119CD00C98F08 /* USPAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */; };
 		C5C354D6157119CD00C98F08 /* USPAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */; };
 		C5C354DA15711B2000C98F08 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5C354D915711B1F00C98F08 /* gif.gif */; };
+		C5C354DE1571207800C98F08 /* USPCardapioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354DC1571207800C98F08 /* USPCardapioTableViewController.m */; };
+		C5C354DF1571207800C98F08 /* USPCardapioTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C354DD1571207800C98F08 /* USPCardapioTableViewController.xib */; };
+		C5C354E215712D8600C98F08 /* USPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354E115712D8600C98F08 /* USPTabBarController.m */; };
 		C5F21FA3156FC0F5009C1505 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */; };
 		C5F21FA4156FC0F5009C1505 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA2156FC0F5009C1505 /* 59-info.png */; };
 		C5F21FA6156FC27F009C1505 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA5156FC27F009C1505 /* View.xib */; };
@@ -56,6 +59,11 @@
 		C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPAnimationViewController.m; sourceTree = "<group>"; };
 		C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USPAnimationViewController.xib; sourceTree = "<group>"; };
 		C5C354D915711B1F00C98F08 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		C5C354DB1571207800C98F08 /* USPCardapioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPCardapioTableViewController.h; sourceTree = "<group>"; };
+		C5C354DC1571207800C98F08 /* USPCardapioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPCardapioTableViewController.m; sourceTree = "<group>"; };
+		C5C354DD1571207800C98F08 /* USPCardapioTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USPCardapioTableViewController.xib; sourceTree = "<group>"; };
+		C5C354E015712D8500C98F08 /* USPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPTabBarController.h; sourceTree = "<group>"; };
+		C5C354E115712D8600C98F08 /* USPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPTabBarController.m; sourceTree = "<group>"; };
 		C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 		C5F21FA2156FC0F5009C1505 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
 		C5F21FA5156FC27F009C1505 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -100,6 +108,11 @@
 				C5C354D2157119CD00C98F08 /* USPAnimationViewController.h */,
 				C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */,
 				C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */,
+				C5C354DB1571207800C98F08 /* USPCardapioTableViewController.h */,
+				C5C354DC1571207800C98F08 /* USPCardapioTableViewController.m */,
+				C5C354DD1571207800C98F08 /* USPCardapioTableViewController.xib */,
+				C5C354E015712D8500C98F08 /* USPTabBarController.h */,
+				C5C354E115712D8600C98F08 /* USPTabBarController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -276,6 +289,7 @@
 				C5C354C61570FC2300C98F08 /* 48-fork-and-knife@2x.png in Resources */,
 				C5C354D6157119CD00C98F08 /* USPAnimationViewController.xib in Resources */,
 				C5C354DA15711B2000C98F08 /* gif.gif in Resources */,
+				C5C354DF1571207800C98F08 /* USPCardapioTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +311,8 @@
 				C5C354CE1571051300C98F08 /* USPCardapioView.m in Sources */,
 				C5C354D115710A2C00C98F08 /* UIScrollView+GotoIndex.m in Sources */,
 				C5C354D5157119CD00C98F08 /* USPAnimationViewController.m in Sources */,
+				C5C354DE1571207800C98F08 /* USPCardapioTableViewController.m in Sources */,
+				C5C354E215712D8600C98F08 /* USPTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

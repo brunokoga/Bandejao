@@ -56,7 +56,7 @@
     [mainViewController setTabBarItem:mainTabBarItem];
 
     
-    UIViewController *secondViewController = [[UIViewController alloc] init];
+    USPAnimationViewController *secondViewController = [[USPAnimationViewController alloc] init];
     
     UITabBarItem *secondViewControllerTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Sobre" image:[UIImage imageNamed:@"59-info.png"] tag:1];
     [secondViewController setTabBarItem:secondViewControllerTabBarItem];

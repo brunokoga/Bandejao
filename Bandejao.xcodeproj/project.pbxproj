@@ -18,6 +18,9 @@
 		C5C354C61570FC2300C98F08 /* 48-fork-and-knife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C354C41570FC2300C98F08 /* 48-fork-and-knife@2x.png */; };
 		C5C354CE1571051300C98F08 /* USPCardapioView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354CD1571051300C98F08 /* USPCardapioView.m */; };
 		C5C354D115710A2C00C98F08 /* UIScrollView+GotoIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354D015710A2C00C98F08 /* UIScrollView+GotoIndex.m */; };
+		C5C354D5157119CD00C98F08 /* USPAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */; };
+		C5C354D6157119CD00C98F08 /* USPAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */; };
+		C5C354DA15711B2000C98F08 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5C354D915711B1F00C98F08 /* gif.gif */; };
 		C5F21FA3156FC0F5009C1505 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */; };
 		C5F21FA4156FC0F5009C1505 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA2156FC0F5009C1505 /* 59-info.png */; };
 		C5F21FA6156FC27F009C1505 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA5156FC27F009C1505 /* View.xib */; };
@@ -49,6 +52,10 @@
 		C5C354CD1571051300C98F08 /* USPCardapioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPCardapioView.m; sourceTree = "<group>"; };
 		C5C354CF15710A2C00C98F08 /* UIScrollView+GotoIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GotoIndex.h"; sourceTree = "<group>"; };
 		C5C354D015710A2C00C98F08 /* UIScrollView+GotoIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GotoIndex.m"; sourceTree = "<group>"; };
+		C5C354D2157119CD00C98F08 /* USPAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPAnimationViewController.h; sourceTree = "<group>"; };
+		C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPAnimationViewController.m; sourceTree = "<group>"; };
+		C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USPAnimationViewController.xib; sourceTree = "<group>"; };
+		C5C354D915711B1F00C98F08 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
 		C5F21FA2156FC0F5009C1505 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
 		C5F21FA5156FC27F009C1505 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
@@ -90,6 +97,9 @@
 				C53F55D91567C82B00372D9A /* USPMainViewController.h */,
 				C53F55DA1567C82B00372D9A /* USPMainViewController.m */,
 				C53F55DB1567C82B00372D9A /* USPMainViewController.xib */,
+				C5C354D2157119CD00C98F08 /* USPAnimationViewController.h */,
+				C5C354D3157119CD00C98F08 /* USPAnimationViewController.m */,
+				C5C354D4157119CD00C98F08 /* USPAnimationViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -167,6 +177,7 @@
 				C5C354C41570FC2300C98F08 /* 48-fork-and-knife@2x.png */,
 				C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */,
 				C5F21FA2156FC0F5009C1505 /* 59-info.png */,
+				C5C354D915711B1F00C98F08 /* gif.gif */,
 				C53F55F11567EA9C00372D9A /* Parser */,
 				C53F55E41567D95800372D9A /* LIbs */,
 				C53F55D71567C7EC00372D9A /* View Controllers */,
@@ -263,6 +274,8 @@
 				C5F21FA6156FC27F009C1505 /* View.xib in Resources */,
 				C5C354C51570FC2300C98F08 /* 48-fork-and-knife.png in Resources */,
 				C5C354C61570FC2300C98F08 /* 48-fork-and-knife@2x.png in Resources */,
+				C5C354D6157119CD00C98F08 /* USPAnimationViewController.xib in Resources */,
+				C5C354DA15711B2000C98F08 /* gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +296,7 @@
 				C53F55F41567EAB400372D9A /* USPXMLParser.m in Sources */,
 				C5C354CE1571051300C98F08 /* USPCardapioView.m in Sources */,
 				C5C354D115710A2C00C98F08 /* UIScrollView+GotoIndex.m in Sources */,
+				C5C354D5157119CD00C98F08 /* USPAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

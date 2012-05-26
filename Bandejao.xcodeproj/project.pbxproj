@@ -14,6 +14,13 @@
 		C53F55F01567DDAF00372D9A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C53F55EF1567DDAF00372D9A /* libxml2.dylib */; };
 		C53F55F41567EAB400372D9A /* USPXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C53F55F31567EAB400372D9A /* USPXMLParser.m */; };
 		C56924931561849D00A16B9D /* NSDate+Formatted.m in Sources */ = {isa = PBXBuildFile; fileRef = C56924921561849D00A16B9D /* NSDate+Formatted.m */; };
+		C5C354C51570FC2300C98F08 /* 48-fork-and-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C354C31570FC2300C98F08 /* 48-fork-and-knife.png */; };
+		C5C354C61570FC2300C98F08 /* 48-fork-and-knife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5C354C41570FC2300C98F08 /* 48-fork-and-knife@2x.png */; };
+		C5C354CE1571051300C98F08 /* USPCardapioView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354CD1571051300C98F08 /* USPCardapioView.m */; };
+		C5C354D115710A2C00C98F08 /* UIScrollView+GotoIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C354D015710A2C00C98F08 /* UIScrollView+GotoIndex.m */; };
+		C5F21FA3156FC0F5009C1505 /* 59-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */; };
+		C5F21FA4156FC0F5009C1505 /* 59-info.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA2156FC0F5009C1505 /* 59-info.png */; };
+		C5F21FA6156FC27F009C1505 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F21FA5156FC27F009C1505 /* View.xib */; };
 		C5F61EF7155EA85400BDBC88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F61EF6155EA85400BDBC88 /* UIKit.framework */; };
 		C5F61EF9155EA85400BDBC88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F61EF8155EA85400BDBC88 /* Foundation.framework */; };
 		C5F61EFB155EA85400BDBC88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F61EFA155EA85400BDBC88 /* CoreGraphics.framework */; };
@@ -36,6 +43,15 @@
 		C53F55F31567EAB400372D9A /* USPXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPXMLParser.m; sourceTree = "<group>"; };
 		C56924911561849D00A16B9D /* NSDate+Formatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatted.h"; sourceTree = "<group>"; };
 		C56924921561849D00A16B9D /* NSDate+Formatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatted.m"; sourceTree = "<group>"; };
+		C5C354C31570FC2300C98F08 /* 48-fork-and-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife.png"; sourceTree = "<group>"; };
+		C5C354C41570FC2300C98F08 /* 48-fork-and-knife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-fork-and-knife@2x.png"; sourceTree = "<group>"; };
+		C5C354CC1571051300C98F08 /* USPCardapioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USPCardapioView.h; sourceTree = "<group>"; };
+		C5C354CD1571051300C98F08 /* USPCardapioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USPCardapioView.m; sourceTree = "<group>"; };
+		C5C354CF15710A2C00C98F08 /* UIScrollView+GotoIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GotoIndex.h"; sourceTree = "<group>"; };
+		C5C354D015710A2C00C98F08 /* UIScrollView+GotoIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GotoIndex.m"; sourceTree = "<group>"; };
+		C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info@2x.png"; sourceTree = "<group>"; };
+		C5F21FA2156FC0F5009C1505 /* 59-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-info.png"; sourceTree = "<group>"; };
+		C5F21FA5156FC27F009C1505 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		C5F61EF2155EA85400BDBC88 /* Bandejao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bandejao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F61EF6155EA85400BDBC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C5F61EF8155EA85400BDBC88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,6 +125,8 @@
 			children = (
 				C56924911561849D00A16B9D /* NSDate+Formatted.h */,
 				C56924921561849D00A16B9D /* NSDate+Formatted.m */,
+				C5C354CF15710A2C00C98F08 /* UIScrollView+GotoIndex.h */,
+				C5C354D015710A2C00C98F08 /* UIScrollView+GotoIndex.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -116,8 +134,6 @@
 		C5F61EE7155EA85300BDBC88 = {
 			isa = PBXGroup;
 			children = (
-				C53F55EF1567DDAF00372D9A /* libxml2.dylib */,
-				C53F55ED1567DDA500372D9A /* libz.dylib */,
 				C5F61EFC155EA85400BDBC88 /* Bandejao */,
 				C5F61EF5155EA85400BDBC88 /* Frameworks */,
 				C5F61EF3155EA85400BDBC88 /* Products */,
@@ -135,6 +151,8 @@
 		C5F61EF5155EA85400BDBC88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C53F55EF1567DDAF00372D9A /* libxml2.dylib */,
+				C53F55ED1567DDA500372D9A /* libz.dylib */,
 				C5F61EF6155EA85400BDBC88 /* UIKit.framework */,
 				C5F61EF8155EA85400BDBC88 /* Foundation.framework */,
 				C5F61EFA155EA85400BDBC88 /* CoreGraphics.framework */,
@@ -145,6 +163,10 @@
 		C5F61EFC155EA85400BDBC88 /* Bandejao */ = {
 			isa = PBXGroup;
 			children = (
+				C5C354C31570FC2300C98F08 /* 48-fork-and-knife.png */,
+				C5C354C41570FC2300C98F08 /* 48-fork-and-knife@2x.png */,
+				C5F21FA1156FC0F5009C1505 /* 59-info@2x.png */,
+				C5F21FA2156FC0F5009C1505 /* 59-info.png */,
 				C53F55F11567EA9C00372D9A /* Parser */,
 				C53F55E41567D95800372D9A /* LIbs */,
 				C53F55D71567C7EC00372D9A /* View Controllers */,
@@ -153,6 +175,9 @@
 				C5F61F05155EA85400BDBC88 /* USPAppDelegate.h */,
 				C5F61F06155EA85400BDBC88 /* USPAppDelegate.m */,
 				C5F61EFD155EA85400BDBC88 /* Supporting Files */,
+				C5F21FA5156FC27F009C1505 /* View.xib */,
+				C5C354CC1571051300C98F08 /* USPCardapioView.h */,
+				C5C354CD1571051300C98F08 /* USPCardapioView.m */,
 			);
 			path = Bandejao;
 			sourceTree = "<group>";
@@ -233,6 +258,11 @@
 			files = (
 				C5F61F01155EA85400BDBC88 /* InfoPlist.strings in Resources */,
 				C53F55DD1567C82B00372D9A /* USPMainViewController.xib in Resources */,
+				C5F21FA3156FC0F5009C1505 /* 59-info@2x.png in Resources */,
+				C5F21FA4156FC0F5009C1505 /* 59-info.png in Resources */,
+				C5F21FA6156FC27F009C1505 /* View.xib in Resources */,
+				C5C354C51570FC2300C98F08 /* 48-fork-and-knife.png in Resources */,
+				C5C354C61570FC2300C98F08 /* 48-fork-and-knife@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +281,8 @@
 				C53F55DC1567C82B00372D9A /* USPMainViewController.m in Sources */,
 				C53F55EC1567DCF200372D9A /* RXMLElement.m in Sources */,
 				C53F55F41567EAB400372D9A /* USPXMLParser.m in Sources */,
+				C5C354CE1571051300C98F08 /* USPCardapioView.m in Sources */,
+				C5C354D115710A2C00C98F08 /* UIScrollView+GotoIndex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,5 +16,11 @@
 @property (strong) USPRefeicao *almoco;
 @property (strong) USPRefeicao *jantar;
 
+- (id)initWithDiaSemana:(NSString*)_diaSemana
+                   data:(NSString*)_data
+                 almoco:(USPRefeicao*)_almoco
+                 jantar:(USPRefeicao*)_jantar;
+
+
 
 @end

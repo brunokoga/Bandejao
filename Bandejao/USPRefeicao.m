@@ -12,4 +12,18 @@
 
 @synthesize salada, principal, acompanhamento, sobremesa;
 
+- (id)initWithSalada:(NSString*)_salada
+           principal:(NSString*)_principal
+      acompanhamento:(NSString*)_acompanhamento
+           sobremesa:(NSString*)_sobremesa
+{
+    self = [super init];
+    if (self) {
+        self.salada = _salada;
+        self.principal = _principal;
+        self.acompanhamento = _acompanhamento;
+        self.sobremesa = _sobremesa;
+    }
+    return self;
+}
 @end

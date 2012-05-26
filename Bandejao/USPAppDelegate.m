@@ -13,7 +13,7 @@
 
 @interface USPAppDelegate ()
 
-//- (void)teste;
+- (UITabBarController*)createTabBarController;
 
 @end
 
@@ -27,16 +27,50 @@
 {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
-    USPMainViewController *viewController = [[USPMainViewController alloc] init];
   
-    [self.window setRootViewController:viewController];
+    [self.window setRootViewController:[self createTabBarController]];
       
     [self.window makeKeyAndVisible];
     
     [self teste];
     return YES;
         
+}
+
+- (UITabBarController*)createTabBarController
+{
+ 
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    USPMainViewController *mainViewController = [[USPMainViewController alloc] init];
+    
+    
+    UIImage *cardapioImage = [UIImage imageNamed:@"48-fork-and-knife.png"];
+    
+    NSString *cardapioTitle = @"Cardápio";
+    
+    UITabBarItem *mainTabBarItem = [[UITabBarItem alloc] initWithTitle:cardapioTitle image:cardapioImage tag:1];
+    
+    
+    
+    [mainViewController setTabBarItem:mainTabBarItem];
+
+    
+    UIViewController *secondViewController = [[UIViewController alloc] init];
+    
+    UITabBarItem *secondViewControllerTabBarItem = [[UITabBarItem alloc] initWithTitle:@"Sobre" image:[UIImage imageNamed:@"59-info.png"] tag:1];
+    [secondViewController setTabBarItem:secondViewControllerTabBarItem];
+    
+//    [secondViewControllerTabBarItem setTitle:@"Sobre"];
+    
+    
+    NSArray *controllers = [NSArray arrayWithObjects:mainViewController, secondViewController, nil];
+    
+    [tabBarController setViewControllers:controllers];
+    
+
+    return tabBarController;
+
 }
 
 

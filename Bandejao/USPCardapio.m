@@ -12,4 +12,18 @@
 
 @synthesize diaSemana, data, almoco, jantar;
 
+- (id)initWithDiaSemana:(NSString*)_diaSemana
+                   data:(NSString*)_data
+                 almoco:(USPRefeicao*)_almoco
+                 jantar:(USPRefeicao*)_jantar
+{
+    self = [super init];
+    if (self) {
+        self.diaSemana = _diaSemana;
+        self.data = _data;
+        self.almoco = _almoco;
+        self.jantar = _jantar;
+    }
+    return self;
+}
 @end

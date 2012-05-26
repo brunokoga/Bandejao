@@ -15,4 +15,9 @@
 @property (strong) NSString *acompanhamento;
 @property (strong) NSString *sobremesa;
 
+- (id)initWithSalada:(NSString*)_salada
+           principal:(NSString*)_principal
+      acompanhamento:(NSString*)_acompanhamento
+           sobremesa:(NSString*)_sobremesa;
+
 @end
